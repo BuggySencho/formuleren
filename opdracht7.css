@@ -1,0 +1,12 @@
+/*css*/
+.cijfer label {
+  display: inline-block;
+  padding: 1em;
+  background: red;
+  cursor: pointer;
+  text-align: center;
+}
+
+input[type="Radio"] {
+  display: block;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Ian Hartog">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>customer info</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel=stylesheet href="opdracht7.css">
+</head>
+
+<body lang="en">
+  <form action="http://bla.hosts.ma-cloud.nl/pop.php" method="get">
+    <p>naam*:   <input type="text" name="voer voor en achternaam in " value=" ">
+      <select name="Klas">
+        <option value="kies uw klas">kies uw klas*</option>
+       <option value="MG1A">MG1A</option>
+       <option value="MG1B">MG1B</option>
+       <option value="MG1C">MG1C</option>
+       <option value="MG1D">MG1D</option>
+   </select></p>
+    <fieldset class="cijfer" >
+      <legend>opleiding *</legend>
+
+      <p>welk cijfer geef je de opleiding?</p>
+      <label><input type="Radio" name="cijfer" value="0"/> 0 </label>
+      <label><input type="Radio" name="cijfer" value="1"/> 1 </label>
+      <label><input type="Radio" name="cijfer" value="2"/> 2 </label>
+      <label><input type="Radio" name="cijfer" value="3"/> 3 </label>
+      <label><input type="Radio" name="cijfer" value="4"/> 4 </label>
+      <label><input type="Radio" name="cijfer" value="5"/> 5 </label>
+      <label><input type="Radio" name="cijfer" value="6"/> 6 </label>
+      <label><input type="Radio" name="cijfer" value="7"/> 7 </label>
+      <label><input type="Radio" name="cijfer" value="8"/> 8 </label>
+      <label><input type="Radio" name="cijfer" value="9"/> 9 </label>
+      <label><input type="Radio" name="cijfer" value="10"/> 10 </label>
+
+      <p>welk cijfer geef je jouw inzet?</p>
+      <label><input type="Radio" name="inzet" value="0"/> 0 </label>
+      <label><input type="Radio" name="inzet" value="1"/> 1 </label>
+      <label><input type="Radio" name="inzet" value="2"/> 2 </label>
+      <label><input type="Radio" name="inzet" value="3"/> 3 </label>
+      <label><input type="Radio" name="inzet" value="4"/> 4 </label>
+      <label><input type="Radio" name="inzet" value="5"/> 5 </label>
+      <label><input type="Radio" name="inzet" value="6"/> 6 </label>
+      <label><input type="Radio" name="inzet" value="7"/> 7 </label>
+      <label><input type="Radio" name="inzet" value="8"/> 8 </label>
+      <label><input type="Radio" name="inzet" value="9"/> 9 </label>
+      <label><input type="Radio" name="inzet" value="10"/> 10 </label>
+
+        <p>welk cijfer geef je de lessen?</p>
+        <label><input type="Radio" name="lessen" value="0"/> 0 </label>
+        <label><input type="Radio" name="lessen" value="1"/> 1 </label>
+        <label><input type="Radio" name="lessen" value="2"/> 2 </label>
+        <label><input type="Radio" name="lessen" value="3"/> 3 </label>
+        <label><input type="Radio" name="lessen" value="4"/> 4 </label>
+        <label><input type="Radio" name="lessen" value="5"/> 5 </label>
+        <label><input type="Radio" name="lessen" value="6"/> 6 </label>
+        <label><input type="Radio" name="lessen" value="7"/> 7 </label>
+        <label><input type="Radio" name="lessen" value="8"/> 8 </label>
+        <label><input type="Radio" name="lessen" value="9"/> 9 </label>
+        <label><input type="Radio" name="lessen" value="10"/> 10 </label>
+
+    </fieldset>
+    <fieldset>
+      <legend>keuze</legend>
+
+      <p>Welke keuze ga je maken na periode 2?</p>
+      <label><input type="checkbox" name="keuze" value="0"/> mediadeveloper </label>
+      <label><input type="checkbox" name="keuze" value="1"/> gamedeveloper  </label>
+      <label><input type="checkbox" name="keuze" value="2"/> weet ik nog niet </label>
+      <label><input type="checkbox" name="keuze" value="3"/> ik ga een andere opleiding kiezen </label>
+      <label><input type="checkbox" name="keuze" value="4"/> ik ga stoppen met school en niks doen met mijn leven </label>
+    </fieldset>
+    <fieldset>
+<legend>Nog te ontwikkelen</legend>
+
+<p>Aan welke skils moet je nog extra aandacht besteden?</p>
+<label><input type="checkbox" name="skills" value="0"/> coderen in html/css </label>
+<label><input type="checkbox" name="skills" value="1"/> programmeren in java </label>
+<label><input type="checkbox" name="skills" value="2"/> scripting: programmeren in javascript </label>
+<label><input type="checkbox" name="skills" value="3"/> planning </label>
+<label><input type="checkbox" name="skills" value="4"/> socialiseren </label>
+    </fieldset>
+    <p>Wat zijn jouw plannen voor de toekomst?*</p>
+    <textarea name="name" rows="8" cols="80"></textarea>
+    <input type="submit" value="verstuur" id="verstuur" />
+    <footer>
+      <div id="validatie">
+        <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+          <img src="http://blog.boyet.com/blog/files/media/image/valid-html5-blue.png" alt="Valide HTML5"></a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+          <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+        </a>
+      </div>
+    </footer>
+  </form>
+    </body>
+    </html>
